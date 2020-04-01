@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: sentinel-example
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+
+    nacos:
+      discovery:
+        server-addr: www.xmfairy.top:7448
+
+
+
